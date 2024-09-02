@@ -1,0 +1,14 @@
+
+    <h3>TERMINAL CODING</h3>
+    <h2>Hallo <%= nama %> </h2>
+    <p>welcome to my website</p>
+    <h3>Daftar santri:</h3>
+    <% if (santri.length < 1) { %>
+     <p>data santri belum diisi.</p>
+    <% } %>
+    <% santri.forEach(str => { %>
+     <ul>
+         <li>Nama: <%= str.nama %> </li>
+         <li>Email: <%= str.email %> </li>
+     </ul>
+    <% }) %>

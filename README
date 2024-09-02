@@ -1,0 +1,78 @@
+Berikut adalah contoh README untuk proyek Node.js yang kamu deskripsikan:
+
+---
+
+# Contact Book Application
+
+A simple Contact Book application built with Node.js that allows users to store and validate contact information, including name, email, and phone number. This application ensures that the email addresses and phone numbers entered are valid, adhering to the formats commonly used in Indonesia.
+
+## Features
+
+- **Home Page:** Displays a list of friend names (placeholder).
+- **Contact Book:** Allows users to add, view, and validate contact information.
+- **Validation:** Checks whether the entered email addresses and phone numbers are valid based on Indonesian standards.
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js**: Ensure that you have Node.js installed on your machine.
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/contact-book.git
+   cd contact-book
+   ```
+
+2. **Install the dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+You can run the application using either `node` or `nodemon`:
+
+- **Using Node.js:**
+
+  ```bash
+  node app
+  ```
+
+- **Using Nodemon:** (if you have nodemon installed)
+
+  ```bash
+  nodemon app
+  ```
+
+### Usage
+
+1. **Home Page:**
+   - Visit the home page to see a list of friend names.
+
+2. **Contact Book:**
+   - Add a new contact with a name, email, and phone number.
+   - The application will validate the email and phone number to ensure they are correctly formatted according to Indonesian standards.
+
+### Validations
+
+- **Email Validation:** Ensures that the entered email address follows a proper format.
+- **Phone Number Validation:** Checks that the entered phone number is valid within Indonesia's numbering plan.
+
+## Technologies Used
+
+- **Node.js**
+- **Express.js** (if applicable)
+- **Validator Libraries** (e.g., `validator` for email validation)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to customize this README further to match the specifics of your project, such as including more details about the technologies used, any additional features, or instructions on how to deploy the application.
